@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  ai:
+    ollama:
+      chat:
+        model: llama2:7b
+      embedding:
+        enabled: false
